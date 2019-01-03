@@ -109,7 +109,7 @@ const Mutations = {
         resetTokenExpiry
       }
     });
-    console.log(res);
+
     return { message: 'Thanks!' };
     // 3. email them that reset token
   },
